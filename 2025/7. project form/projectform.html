@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM PAGE</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="leftcontainer">
+            <div class="logocontainer">
+                <img id="odinlogo" src="odin-lined.png" alt="">
+                <span style="color: white;">ODIN</span>
+            </div>
+        </div>
+
+
+        <div class="rightcontainer">
+            <div>
+                <p>
+                    This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.
+                </p>
+                <p>
+                    You <i>know</i> you want to.
+                </p>
+
+                <form id="form" action="xxxx" method="post">
+                    <p class="indent"><span>Let's do this!</span></p>
+                    <div class="inputscontainer">
+                        
+                        <div class="column1inputs">
+                            <label for="firstname">FIRST NAME</label>
+                            <input type="text" id="firstname">
+
+                            <label for="email">EMAIL</label>
+                            <input type="text" id="email">
+                        
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" required>
+                        </div>
+                        <div class="column2inputs">
+                            <label for="lastname">LAST NAME</label>
+                            <input type="text" id="lastname">
+
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="text" id="phone" pattern="^\d[0-9]{10}$">
+                            
+                            <label for="confirmpassword">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirmpassword" required>
+                        </div>
+                    </div>
+                    <input id="submit" type="submit" value="Create Account">
+                </form>
+                <span>Already have an account? <a href="xxx.login" id="loginlink">Log in</a></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
